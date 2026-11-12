@@ -1,0 +1,752 @@
+[
+  {
+    "anomaly_id": "ANOM-2026-0001",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-001439-01",
+    "rma_id": "RMA-2026-001439",
+    "order_id": "ORD-2026-004935",
+    "expected_rule_violated": "requested_qty (4) exceeds OrderLine.quantity_ordered (2)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0002",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-001593-01",
+    "rma_id": "RMA-2026-001593",
+    "order_id": "ORD-2026-003951",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0003",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-003883-01",
+    "rma_id": "RMA-2026-003883",
+    "order_id": "ORD-2026-006833",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0004",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-000516-01",
+    "rma_id": "RMA-2026-000516",
+    "order_id": "ORD-2026-012210",
+    "expected_rule_violated": "requested_qty (4) exceeds OrderLine.quantity_ordered (2)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0005",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-004787-01",
+    "rma_id": "RMA-2026-004787",
+    "order_id": "ORD-2026-025536",
+    "expected_rule_violated": "requested_qty (6) exceeds OrderLine.quantity_ordered (4)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0006",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-003086-01",
+    "rma_id": "RMA-2026-003086",
+    "order_id": "ORD-2026-028680",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0007",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-004950-01",
+    "rma_id": "RMA-2026-004950",
+    "order_id": "ORD-2026-000443",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0008",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-002731-01",
+    "rma_id": "RMA-2026-002731",
+    "order_id": "ORD-2026-018423",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0009",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-002333-01",
+    "rma_id": "RMA-2026-002333",
+    "order_id": "ORD-2026-022613",
+    "expected_rule_violated": "requested_qty (4) exceeds OrderLine.quantity_ordered (2)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0010",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-000025-01",
+    "rma_id": "RMA-2026-000025",
+    "order_id": "ORD-2026-026393",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0011",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-002465-01",
+    "rma_id": "RMA-2026-002465",
+    "order_id": "ORD-2026-021734",
+    "expected_rule_violated": "requested_qty (4) exceeds OrderLine.quantity_ordered (2)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0012",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-000659-01",
+    "rma_id": "RMA-2026-000659",
+    "order_id": "ORD-2026-003776",
+    "expected_rule_violated": "requested_qty (4) exceeds OrderLine.quantity_ordered (2)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0013",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-003002-01",
+    "rma_id": "RMA-2026-003002",
+    "order_id": "ORD-2026-017863",
+    "expected_rule_violated": "requested_qty (5) exceeds OrderLine.quantity_ordered (3)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0014",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-002406-01",
+    "rma_id": "RMA-2026-002406",
+    "order_id": "ORD-2026-011860",
+    "expected_rule_violated": "requested_qty (3) exceeds OrderLine.quantity_ordered (1)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0015",
+    "issue_type": "RETURN_QTY_EXCEEDS_PURCHASED",
+    "primary_entity_type": "RETURN_LINE",
+    "primary_entity_id": "RMAL-RMA-2026-004015-01",
+    "rma_id": "RMA-2026-004015",
+    "order_id": "ORD-2026-026485",
+    "expected_rule_violated": "requested_qty (4) exceeds OrderLine.quantity_ordered (2)",
+    "expected_system_action": "BLOCK_RETURN_LINE"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0016",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-001204",
+    "rma_id": "RMA-2026-001577",
+    "order_id": "ORD-2026-010861",
+    "expected_rule_violated": "net_refund_amount (519.80) exceeds reconciled paid total (444.80)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0017",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-001774",
+    "rma_id": "RMA-2026-002314",
+    "order_id": "ORD-2026-024633",
+    "expected_rule_violated": "net_refund_amount (323.74) exceeds reconciled paid total (248.74)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0018",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-002639",
+    "rma_id": "RMA-2026-003464",
+    "order_id": "ORD-2026-016424",
+    "expected_rule_violated": "net_refund_amount (295.47) exceeds reconciled paid total (220.47)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0019",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-001245",
+    "rma_id": "RMA-2026-001631",
+    "order_id": "ORD-2026-025329",
+    "expected_rule_violated": "net_refund_amount (371.31) exceeds reconciled paid total (296.31)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0020",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-002427",
+    "rma_id": "RMA-2026-003170",
+    "order_id": "ORD-2026-026137",
+    "expected_rule_violated": "net_refund_amount (370.73) exceeds reconciled paid total (295.73)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0021",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-000012",
+    "rma_id": "RMA-2026-000014",
+    "order_id": "ORD-2026-016474",
+    "expected_rule_violated": "net_refund_amount (425.00) exceeds reconciled paid total (350.00)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0022",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-001493",
+    "rma_id": "RMA-2026-001949",
+    "order_id": "ORD-2026-014297",
+    "expected_rule_violated": "net_refund_amount (162.40) exceeds reconciled paid total (87.40)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0023",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-001730",
+    "rma_id": "RMA-2026-002258",
+    "order_id": "ORD-2026-020128",
+    "expected_rule_violated": "net_refund_amount (147.64) exceeds reconciled paid total (72.64)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0024",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-002148",
+    "rma_id": "RMA-2026-002812",
+    "order_id": "ORD-2026-009413",
+    "expected_rule_violated": "net_refund_amount (277.40) exceeds reconciled paid total (202.40)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0025",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-000617",
+    "rma_id": "RMA-2026-000827",
+    "order_id": "ORD-2026-014813",
+    "expected_rule_violated": "net_refund_amount (194.08) exceeds reconciled paid total (119.08)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0026",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003611",
+    "rma_id": "RMA-2026-004764",
+    "order_id": "ORD-2026-014911",
+    "expected_rule_violated": "net_refund_amount (205.61) exceeds reconciled paid total (130.61)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0027",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003111",
+    "rma_id": "RMA-2026-004099",
+    "order_id": "ORD-2026-025855",
+    "expected_rule_violated": "net_refund_amount (462.57) exceeds reconciled paid total (387.57)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0028",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-000876",
+    "rma_id": "RMA-2026-001158",
+    "order_id": "ORD-2026-022614",
+    "expected_rule_violated": "net_refund_amount (191.88) exceeds reconciled paid total (116.88)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0029",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-000264",
+    "rma_id": "RMA-2026-000362",
+    "order_id": "ORD-2026-011486",
+    "expected_rule_violated": "net_refund_amount (130.55) exceeds reconciled paid total (55.55)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0030",
+    "issue_type": "REFUND_EXCEEDS_PAID",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-000991",
+    "rma_id": "RMA-2026-001304",
+    "order_id": "ORD-2026-009004",
+    "expected_rule_violated": "net_refund_amount (130.63) exceeds reconciled paid total (55.63)",
+    "expected_system_action": "BLOCK_OVER_REFUND"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0031",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-003618",
+    "rma_id": "RMA-2026-003224",
+    "order_id": "ORD-2026-006685",
+    "expected_rule_violated": "disposition_date (2026-04-26T09:30:54Z) precedes inspection (2026-04-26T21:30:54Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0032",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-004353",
+    "rma_id": "RMA-2026-003912",
+    "order_id": "ORD-2026-015518",
+    "expected_rule_violated": "disposition_date (2026-10-31T00:48:18Z) precedes inspection (2026-10-31T12:48:18Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0033",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-004548",
+    "rma_id": "RMA-2026-004090",
+    "order_id": "ORD-2026-009522",
+    "expected_rule_violated": "disposition_date (2026-04-06T06:55:51Z) precedes inspection (2026-04-06T18:55:51Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0034",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-001756",
+    "rma_id": "RMA-2026-001568",
+    "order_id": "ORD-2026-003439",
+    "expected_rule_violated": "disposition_date (2026-03-29T02:01:03Z) precedes inspection (2026-03-29T14:01:03Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0035",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-004031",
+    "rma_id": "RMA-2026-003619",
+    "order_id": "ORD-2026-011603",
+    "expected_rule_violated": "disposition_date (2026-06-16T17:01:20Z) precedes inspection (2026-06-17T05:01:20Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0036",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-003501",
+    "rma_id": "RMA-2026-003111",
+    "order_id": "ORD-2026-027708",
+    "expected_rule_violated": "disposition_date (2026-05-16T07:29:08Z) precedes inspection (2026-05-16T19:29:08Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0037",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-001894",
+    "rma_id": "RMA-2026-001694",
+    "order_id": "ORD-2026-009272",
+    "expected_rule_violated": "disposition_date (2026-06-26T12:40:43Z) precedes inspection (2026-06-27T00:40:43Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0038",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-000730",
+    "rma_id": "RMA-2026-000655",
+    "order_id": "ORD-2026-012361",
+    "expected_rule_violated": "disposition_date (2026-03-24T22:12:29Z) precedes inspection (2026-03-25T10:12:29Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0039",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-004012",
+    "rma_id": "RMA-2026-003599",
+    "order_id": "ORD-2026-024402",
+    "expected_rule_violated": "disposition_date (2026-05-28T13:46:59Z) precedes inspection (2026-05-29T01:46:59Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0040",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-000964",
+    "rma_id": "RMA-2026-000866",
+    "order_id": "ORD-2026-003738",
+    "expected_rule_violated": "disposition_date (2026-04-03T11:28:25Z) precedes inspection (2026-04-03T23:28:25Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0041",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-002238",
+    "rma_id": "RMA-2026-001996",
+    "order_id": "ORD-2026-002535",
+    "expected_rule_violated": "disposition_date (2026-05-03T23:59:55Z) precedes inspection (2026-05-04T11:59:55Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0042",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-002949",
+    "rma_id": "RMA-2026-002608",
+    "order_id": "ORD-2026-027467",
+    "expected_rule_violated": "disposition_date (2026-06-13T14:17:56Z) precedes inspection (2026-06-14T02:17:56Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0043",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-004532",
+    "rma_id": "RMA-2026-004079",
+    "order_id": "ORD-2026-019198",
+    "expected_rule_violated": "disposition_date (2026-07-15T17:53:19Z) precedes inspection (2026-07-16T05:53:19Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0044",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-000134",
+    "rma_id": "RMA-2026-000119",
+    "order_id": "ORD-2026-001753",
+    "expected_rule_violated": "disposition_date (2026-08-03T23:46:24Z) precedes inspection (2026-08-04T11:46:24Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0045",
+    "issue_type": "RESTOCK_BEFORE_INSPECTION",
+    "primary_entity_type": "INVENTORY_DISPOSITION",
+    "primary_entity_id": "DISP-2026-001523",
+    "rma_id": "RMA-2026-001376",
+    "order_id": "ORD-2026-015922",
+    "expected_rule_violated": "disposition_date (2026-08-11T02:03:56Z) precedes inspection (2026-08-11T14:03:56Z) with null inspection_id",
+    "expected_system_action": "REJECT_PREMATURE_RESTOCK"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0046",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-003774",
+    "rma_id": "RMA-2026-003774",
+    "order_id": "ORD-2026-018234",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0047",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-002212",
+    "rma_id": "RMA-2026-002212",
+    "order_id": "ORD-2026-009981",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0048",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-000271",
+    "rma_id": "RMA-2026-000271",
+    "order_id": "ORD-2026-016054",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0049",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-001075",
+    "rma_id": "RMA-2026-001075",
+    "order_id": "ORD-2026-005048",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0050",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-001033",
+    "rma_id": "RMA-2026-001033",
+    "order_id": "ORD-2026-003924",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0051",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-001444",
+    "rma_id": "RMA-2026-001444",
+    "order_id": "ORD-2026-010804",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0052",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-003314",
+    "rma_id": "RMA-2026-003314",
+    "order_id": "ORD-2026-015859",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0053",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-002655",
+    "rma_id": "RMA-2026-002655",
+    "order_id": "ORD-2026-016987",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0054",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-001532",
+    "rma_id": "RMA-2026-001532",
+    "order_id": "ORD-2026-022764",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0055",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-002493",
+    "rma_id": "RMA-2026-002493",
+    "order_id": "ORD-2026-007940",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0056",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-004273",
+    "rma_id": "RMA-2026-004273",
+    "order_id": "ORD-2026-003906",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0057",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-002056",
+    "rma_id": "RMA-2026-002056",
+    "order_id": "ORD-2026-014135",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0058",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-001876",
+    "rma_id": "RMA-2026-001876",
+    "order_id": "ORD-2026-025648",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0059",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-000578",
+    "rma_id": "RMA-2026-000578",
+    "order_id": "ORD-2026-015452",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0060",
+    "issue_type": "LATE_RETURN_NO_OVERRIDE",
+    "primary_entity_type": "RETURN_REQUEST",
+    "primary_entity_id": "RMA-2026-001175",
+    "rma_id": "RMA-2026-001175",
+    "order_id": "ORD-2026-010641",
+    "expected_rule_violated": "Approved return submitted 52 days after delivery (> max 30-day window) with policy_override_flag=False",
+    "expected_system_action": "REJECT_OUT_OF_WINDOW"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0061",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003796",
+    "rma_id": "RMA-2026-003087",
+    "order_id": "ORD-2026-000729",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003796) issued for RMA already refunded via REF-2026-002361",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0062",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003797",
+    "rma_id": "RMA-2026-004171",
+    "order_id": "ORD-2026-006161",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003797) issued for RMA already refunded via REF-2026-003169",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0063",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003798",
+    "rma_id": "RMA-2026-003215",
+    "order_id": "ORD-2026-021765",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003798) issued for RMA already refunded via REF-2026-002457",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0064",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003799",
+    "rma_id": "RMA-2026-000856",
+    "order_id": "ORD-2026-001839",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003799) issued for RMA already refunded via REF-2026-000640",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0065",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003800",
+    "rma_id": "RMA-2026-000451",
+    "order_id": "ORD-2026-025734",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003800) issued for RMA already refunded via REF-2026-000334",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0066",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003801",
+    "rma_id": "RMA-2026-002663",
+    "order_id": "ORD-2026-020803",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003801) issued for RMA already refunded via REF-2026-002042",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0067",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003802",
+    "rma_id": "RMA-2026-001596",
+    "order_id": "ORD-2026-013557",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003802) issued for RMA already refunded via REF-2026-001218",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0068",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003803",
+    "rma_id": "RMA-2026-002471",
+    "order_id": "ORD-2026-029875",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003803) issued for RMA already refunded via REF-2026-001897",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0069",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003804",
+    "rma_id": "RMA-2026-002231",
+    "order_id": "ORD-2026-023192",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003804) issued for RMA already refunded via REF-2026-001709",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0070",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003805",
+    "rma_id": "RMA-2026-004061",
+    "order_id": "ORD-2026-008423",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003805) issued for RMA already refunded via REF-2026-003081",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0071",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003806",
+    "rma_id": "RMA-2026-002553",
+    "order_id": "ORD-2026-000079",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003806) issued for RMA already refunded via REF-2026-001961",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0072",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003807",
+    "rma_id": "RMA-2026-002768",
+    "order_id": "ORD-2026-010616",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003807) issued for RMA already refunded via REF-2026-002118",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0073",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003808",
+    "rma_id": "RMA-2026-002326",
+    "order_id": "ORD-2026-001370",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003808) issued for RMA already refunded via REF-2026-001784",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0074",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003809",
+    "rma_id": "RMA-2026-003906",
+    "order_id": "ORD-2026-023186",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003809) issued for RMA already refunded via REF-2026-002964",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  },
+  {
+    "anomaly_id": "ANOM-2026-0075",
+    "issue_type": "DUPLICATE_REFUND",
+    "primary_entity_type": "REFUND",
+    "primary_entity_id": "REF-2026-003810",
+    "rma_id": "RMA-2026-001833",
+    "order_id": "ORD-2026-018054",
+    "expected_rule_violated": "Duplicate PROCESSED refund (REF-2026-003810) issued for RMA already refunded via REF-2026-001401",
+    "expected_system_action": "BLOCK_DUPLICATE_PAYOUT"
+  }
+]

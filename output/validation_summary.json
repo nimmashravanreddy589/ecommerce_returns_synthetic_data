@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "error_count": 0,
+  "errors": [],
+  "row_counts": {
+    "customers": 12000,
+    "orders": 30000,
+    "order_lines": 65210,
+    "return_requests": 5000,
+    "return_lines": 8000,
+    "return_authorizations": 4271,
+    "return_shipments": 4271,
+    "inspections": 5594,
+    "refunds": 3810,
+    "inventory_dispositions": 5594,
+    "ground_truth": 75,
+    "state_event_log": 134761
+  },
+  "ground_truth_expected_counts": {
+    "RETURN_QTY_EXCEEDS_PURCHASED": 15,
+    "REFUND_EXCEEDS_PAID": 15,
+    "RESTOCK_BEFORE_INSPECTION": 15,
+    "LATE_RETURN_NO_OVERRIDE": 15,
+    "DUPLICATE_REFUND": 15
+  },
+  "ground_truth_detected_counts": {
+    "RETURN_QTY_EXCEEDS_PURCHASED": 15,
+    "REFUND_EXCEEDS_PAID": 15,
+    "RESTOCK_BEFORE_INSPECTION": 15,
+    "LATE_RETURN_NO_OVERRIDE": 15,
+    "DUPLICATE_REFUND": 15
+  }
+}
